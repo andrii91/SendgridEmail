@@ -60,7 +60,7 @@
        
         <mj-section padding="0 40px 0px">
           <mj-column padding="0">
-            <mj-button font-size="16px" limit-height="24px" inner-padding="15px 30px" font-weight="700" background-color="#FF6067" color="white" href="#">
+            <mj-button font-size="16px" limit-height="24px" inner-padding="17px 30px" font-weight="700" background-color="#FF6067" color="white" href="#">
                 Go to my main wallet
             </mj-button>
           </mj-column>
