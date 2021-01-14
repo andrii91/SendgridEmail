@@ -1,0 +1,127 @@
+<mjml>
+<mj-head>
+		<mj-title>ES Seller</mj-title>
+		<mj-preview>ES Seller</mj-preview>
+		<mj-attributes>
+      <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+			<mj-all font-family="'Inter',  Helvetica, Arial, sans-serif"></mj-all>
+			<mj-text font-weight="400" font-size="16px" color="#000000" line-height="32px" font-family="'Inter', Helvetica, Arial, sans-serif"></mj-text>
+		</mj-attributes>
+    <mj-style inline="inline">
+			.body-section {
+				-webkit-box-shadow: 0px 4px 84px #00000026;
+				-moz-box-shadow: 0px 4px 84px #00000026;
+				box-shadow: 0px 4px 84px #00000026; 
+      }
+
+      .es-join-members {
+       	background-color: #FFFFFF;
+       	border: 1px solid #FF6067;
+       	border-radius: 8px; 
+         margin: 0 40px !important;
+      }
+      .es-join-members.worning {
+       	border: 1px solid #01AAFF;
+      }
+      a {
+        color: #BDC6D2;
+        text-decoration: none;
+      }
+		</mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper background-color="#FFFFFF" padding="20px 0 0"  css-class="body-section">
+        
+        <mj-section padding="20px 40px">
+            <mj-column>
+              <mj-image padding="0" align="left" width="150px" src="images/logo.png" />
+            </mj-column>   
+        </mj-section> 
+
+        <mj-section padding="4px 40px 40px">
+          <mj-column padding="0">
+            <mj-text padding="0" font-size="28px" font-weight="700">Gift card access enabled</mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="20px 40px 10px">
+          <mj-column padding="0">
+            <mj-text font-size="18px"  font-family="'Inter', sans-serif" padding="0">Hello,</mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="0 40px 54px">
+          <mj-column padding="0">
+            <mj-text padding="0 0 10px">You are receiving this notification because you have shared your Elite Seller account with another user and you have given them Create access to the Gift Card module.</mj-text>
+            <mj-text padding="0 0 40px">
+                The Gift Cards module allows you to send a Gift Card (Amazon, Visa, Mastercard etc) to any person in the world.
+            </mj-text>
+            <mj-text padding="0">
+                The funds for these Gift Cards will be directly taken from one of your credit cards on file or the available balance in your main wallet.
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="10px  20px " css-class="es-join-members">
+          <mj-column padding="0">
+            <mj-text align="left" font-weight="500" padding="0" font-size="16px">Do not give this access to a person you do not know well or do not trust 100%. </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="60px 40px 0">
+          <mj-column padding="0">
+            <mj-button font-size="16px" limit-height="24px" inner-padding="15px 30px" font-weight="700" background-color="#FF6067" color="white" href="#">
+             Check permissions
+            </mj-button>
+          </mj-column>
+        </mj-section> 
+
+        <mj-section padding="40px 40px 40px">
+            <mj-column padding="0">
+                <mj-text padding="0 0 10px">
+                    <b>The following persons have access to the Gift Card module :</b>
+                </mj-text>
+                <mj-text padding="0">John Bebedict, johnbebedict24@gmail.com has access through these seller accounts: Seller account.</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="10px  20px " css-class="es-join-members worning">
+          <mj-column padding="0">
+            <mj-text align="left" font-weight="500" padding="0" font-size="16px">We strongly recommend to disable this permission unless its absolutely necessary for this user to have it. </mj-text>
+          </mj-column>
+        </mj-section>
+
+
+        <mj-section padding="60px 0 0">
+            <mj-column padding="0"><mj-divider padding="0"  border-width="1px" border-style="solid" border-color="#E6E6E6" /></mj-column>
+        </mj-section>
+
+        <mj-section padding="30px 40px 25px">
+          <mj-column padding="0">
+            <mj-text align="center" font-size="12px" line-height="18px" color="#505876" padding="0">
+              Copyright © 2020 EliteSeller Inc. All rights reserved. Address: Something something, 544-232.
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="0px 40px 30px">
+          <mj-column padding="0">
+                <mj-image padding="0" align="right" href="#youtube" width="56px" src="images/youtube.png" />
+          </mj-column>
+           <mj-column  padding="0">
+              <mj-image  padding="0 0 0 23px" align="left" href="#fb" width="23px" src="images/fb.png" />
+          </mj-column>
+        </mj-section>
+        
+        <mj-section padding="0 40px 25px">
+          <mj-column>
+            <mj-text padding="0" text-decoration="none" color="#BDC6D2" font-size="12px" line-height="18px" align="center"> 
+              <a  href="#">Unsubscribe</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a  href="#">Privacy Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a  href="#">Contact Support </a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+    </mj-wrapper>
+   
+  </mj-body> 
+</mjml> 
