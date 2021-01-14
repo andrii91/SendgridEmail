@@ -1,7 +1,7 @@
 <mjml>
 <mj-head>
-		<mj-title>ES Seller</mj-title>
-		<mj-preview>ES Seller</mj-preview>
+		<mj-title>SendgridEmail</mj-title>
+		<mj-preview>SendgridEmail</mj-preview>
 		<mj-attributes>
       <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
 			<mj-all font-family="'Inter',  Helvetica, Arial, sans-serif"></mj-all>
