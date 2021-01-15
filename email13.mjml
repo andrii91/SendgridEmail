@@ -49,7 +49,7 @@
         <mj-section padding="20px 40px 30px">
           <mj-column padding="0">
             <mj-text padding="0 0 ">
-              Your campaign <b>"{{campaign_title}}"</b> has been completed. A total of {{coupon_count}} coupons have been delivered to your customers.
+              Your campaign <b>"{{campaign_title}}"</b> has been completed. A total of <b>{{coupon_count}}</b> coupons have been delivered to your customers.
             </mj-text>
           </mj-column>
         </mj-section>

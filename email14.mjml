@@ -62,19 +62,19 @@
 
        
         <mj-section padding="60px 30px 30px">
-          <mj-column padding="0 10px 0 10px">
-            <mj-button padding="0" font-size="16px" width="240px"  line-height="24px"  inner-padding="15px 64px" font-weight="700" background-color="#FF6067" color="white" href="#">
+          <mj-column padding="0 10px 22px 10px">
+            <mj-button padding="0" font-size="16px"  line-height="24px"  inner-padding="15px 64px" font-weight="700" background-color="#FF6067" color="white" href="#">
                 My campaings
             </mj-button>
           </mj-column>
-          <mj-column padding="0 10px 0 10px">
-            <mj-button padding="0" font-size="16px" width="240px" line-height="24px" inner-padding="15px 29px" font-weight="700" background-color="#FF6067" color="white" href="#">
+          <mj-column padding="0 10px 22px 10px">
+            <mj-button padding="0" font-size="16px"  line-height="24px" inner-padding="15px 29px" font-weight="700" background-color="#FF6067" color="white" href="#">
                 Facebook Ads manager
             </mj-button>
           </mj-column> 
         </mj-section> 
 
-        <mj-section padding="22px 40px 0">
+        <mj-section padding="0 40px 0">
           <mj-column padding="0">
             <mj-text padding="0 0 ">
               <b>Note:</b> You are receiving this message because you have access to the Manychat module of <b>{{owner_name}}</b>.

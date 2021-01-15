@@ -49,7 +49,7 @@
 
         <mj-section padding="0 40px 40px">
           <mj-column padding="0">
-            <mj-text padding="0">Just a reminder that your trial of Elite Seller will <b>expire in 5 days</b>, at that moment we will start charging your <b>{{card_brand}</b> ending with <b>card_last4</b> on a monthly basis until canceled.</mj-text>
+            <mj-text padding="0">Just a reminder that your trial of Elite Seller will <b>expire in 5 days</b>, at that moment we will start charging your <b>{{card_brand}}</b> ending with <b>{{card_last4}}</b> on a monthly basis until canceled.</mj-text>
           </mj-column>
         </mj-section>
 
