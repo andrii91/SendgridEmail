@@ -61,14 +61,14 @@
         </mj-section>
 
        
-        <mj-section padding="60px 40px 30px">
-          <mj-column padding="0 20px 0 0">
-            <mj-button padding="0" font-size="16px" inner-padding="15px 64px" font-weight="700" background-color="#FF6067" color="white" href="#">
+        <mj-section padding="60px 30px 30px">
+          <mj-column padding="0 10px 0 10px">
+            <mj-button padding="0" font-size="16px" width="240px"  line-height="24px"  inner-padding="15px 64px" font-weight="700" background-color="#FF6067" color="white" href="#">
                 My campaings
             </mj-button>
           </mj-column>
-          <mj-column padding="0 0 0 20px">
-            <mj-button padding="0" font-size="16px" limit-height="24px" inner-padding="15px 29px" font-weight="700" background-color="#FF6067" color="white" href="#">
+          <mj-column padding="0 10px 0 10px">
+            <mj-button padding="0" font-size="16px" width="240px" line-height="24px" inner-padding="15px 29px" font-weight="700" background-color="#FF6067" color="white" href="#">
                 Facebook Ads manager
             </mj-button>
           </mj-column> 
@@ -96,10 +96,18 @@
 
         <mj-section padding="0px 40px 30px">
           <mj-column padding="0">
-                <mj-image padding="0" align="right" href="#youtube" width="56px" src="images/youtube.png" />
-          </mj-column>
-           <mj-column  padding="0">
-              <mj-image  padding="0 0 0 23px" align="left" href="#fb" width="23px" src="images/fb.png" />
+            <mj-table>
+            
+              <tr>
+                <td style="padding: 0; width: 50%; text-align: right;"> 
+                  <a href="#youtube"><img src="images/youtube.png" width="56px"></a>
+                </td>
+                <td style="padding: 0 ;width: 50%;">
+                  <a href="#fb" style="padding-left: 23px;"><img src="images/fb.png" width="23px"></a>
+                </td>
+              </tr>
+            
+            </mj-table>
           </mj-column>
         </mj-section>
         

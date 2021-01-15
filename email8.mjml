@@ -3,7 +3,7 @@
 		<mj-title>SendgridEmail</mj-title>
 		<mj-preview>SendgridEmail</mj-preview>
 		<mj-attributes>
-      <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+      <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter" />
 			<mj-all font-family="'Inter',  Helvetica, Arial, sans-serif"></mj-all>
 			<mj-text font-weight="400" font-size="16px" color="#000000" line-height="32px" font-family="'Inter', Helvetica, Arial, sans-serif"></mj-text>
 		</mj-attributes>
@@ -53,7 +53,7 @@
         <mj-section padding="0 40px 40px">
           <mj-column padding="0">
             <mj-text padding="0 0 10px">In that process of change, we have set up a new Amazon Developer Account linked to Elite Seller (Elite Seller Developer Account) and got <b>new API credentials.</b></mj-text>
-            <mj-text padding="0 0 40px">
+            <mj-text padding="0 0 0px">
                  All the new users after this switch are using Elite Seller Developer Account. However, <b>you still have some seller account(s) that are connected via the old MDS Tools.</b>
             </mj-text>
           </mj-column>
@@ -85,7 +85,7 @@
             </mj-column>
         </mj-section>
 
-        <mj-section padding="20px 19px 0">
+        <mj-section padding="20px 19px 20px">
             <mj-column padding="0">
             <mj-image padding="0"
                  src="images/rectangle1505.png"
@@ -95,7 +95,7 @@
 
         <mj-section padding="0 40px 40px">
           <mj-column padding="0">
-            <mj-button font-size="16px" limit-height="24px" inner-padding="17px 30px" font-weight="700" background-color="#FF6067" color="white" href="#">
+            <mj-button font-size="16px" line-height="24px" inner-padding="17px 30px" font-weight="700" background-color="#FF6067" color="white" href="#">
              Migrate accounts
             </mj-button>
           </mj-column>
@@ -104,7 +104,7 @@
         <mj-section padding="20px 40px 60px">
             <mj-column padding="0">
                 <mj-text padding="0" align="center">
-                    The migration of an account will take about  <b style="color: #4FA0FF;">1 minute of your time </b> <br>and no data will be lost.
+                    The migration of an account will take about  <b style="color: #4FA0FF;">1&nbsp;minute of your time </b> and&nbsp;no&nbsp;data will be lost.
                 </mj-text>
             </mj-column>
         </mj-section>
@@ -143,10 +143,18 @@
 
         <mj-section padding="0px 40px 30px">
           <mj-column padding="0">
-                <mj-image padding="0" align="right" href="#youtube" width="56px" src="images/youtube.png" />
-          </mj-column>
-           <mj-column  padding="0">
-              <mj-image  padding="0 0 0 23px" align="left" href="#fb" width="23px" src="images/fb.png" />
+            <mj-table>
+            
+              <tr>
+                <td style="padding: 0; width: 50%; text-align: right;"> 
+                  <a href="#youtube"><img src="images/youtube.png" width="56px"></a>
+                </td>
+                <td style="padding: 0 ;width: 50%;">
+                  <a href="#fb" style="padding-left: 23px;"><img src="images/fb.png" width="23px"></a>
+                </td>
+              </tr>
+            
+            </mj-table>
           </mj-column>
         </mj-section>
         
