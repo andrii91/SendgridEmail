@@ -82,23 +82,21 @@
         </mj-section>
 
       
-
-
         <mj-section padding="60px 0 0">
             <mj-column padding="0"><mj-divider padding="0"  border-width="1px" border-style="solid" border-color="#E6E6E6" /></mj-column>
         </mj-section>
 
-        <mj-section padding="30px 40px 25px">
+        <mj-section padding="30px 40px 20px">
           <mj-column padding="0">
             <mj-text align="center" font-size="12px" line-height="18px" color="#505876" padding="0">
-              Copyright © 2020 EliteSeller Inc. All rights reserved. Address: Something something, 544-232.
+              Copyright © 2021 EliteSeller Inc. All rights reserved. Address: Something something, 544-232.
             </mj-text>
           </mj-column>
         </mj-section>
 
-        <mj-section padding="0px 40px 30px">
+        <mj-section padding="0px 40px 20px">
           <mj-column padding="0">
-            <mj-table>
+            <mj-table padding="0">
             
               <tr>
                 <td style="padding: 0; width: 50%; text-align: right;"> 
@@ -120,6 +118,7 @@
             </mj-text>
           </mj-column>
         </mj-section>
+
 
     </mj-wrapper>
    
