@@ -1,0 +1,136 @@
+<mjml>
+<mj-head>
+		<mj-title>SendgridEmail</mj-title>
+		<mj-preview>SendgridEmail</mj-preview>
+		<mj-attributes>
+      <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+			<mj-all font-family="'Inter',  Helvetica, Arial, sans-serif"></mj-all>
+			<mj-text font-weight="400" font-size="16px" color="#000000" line-height="32px" font-family="'Inter', Helvetica, Arial, sans-serif"></mj-text>
+		</mj-attributes>
+    <mj-style inline="inline">
+			.body-section {
+				-webkit-box-shadow: 0px 4px 84px #00000026;
+				-moz-box-shadow: 0px 4px 84px #00000026;
+				box-shadow: 0px 4px 84px #00000026; 
+                border-radius: 15px;
+                overflow: hidden;
+      }
+
+      .es-join-members {
+       	background-color: #FFFFFF;
+       	border: 1px solid #FF6067;
+       	border-radius: 8px; 
+         margin: 0 40px !important;
+      }
+      .es-join-members.worning {
+       	border: 1px solid #01AAFF;
+      }
+      a {
+        color: #BDC6D2;
+        text-decoration: none;
+      }
+		</mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper background-color="#FFFFFF" padding="20px 0 0"  css-class="body-section">
+        
+        <mj-section padding="20px 40px">
+            <mj-column>
+              <mj-image padding="0" align="left" width="150px" src="images/logo.png" />
+            </mj-column>   
+        </mj-section> 
+
+        <mj-section padding="4px 40px 40px">
+          <mj-column padding="0">
+            <mj-text padding="0" font-size="28px" font-weight="700">Your Eliteseller 2FA code</mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="20px 40px 40px">
+          <mj-column padding="0">
+            <mj-text font-size="18px"  font-family="'Inter', sans-serif" padding="0 0 10px">Hello {{name}},</mj-text>
+            <mj-text padding="0 0 0px">We detected an access attempt from an IP address that was not previously associated with your account. This can happen if you are utilizing a dynamic IP address (like on a cell phone Data network).</mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="10px 20px " css-class="es-join-members worning">
+          <mj-column padding="0">
+            <mj-text align="left" line-height="32px" font-weight="400" padding="0 0 10px" font-size="16px">To protect your account against unwanted access you were asked to enter a confirmation code </mj-text>
+            <mj-text align="left" line-height="32px" font-weight="400" padding="0 0 0px" font-size="16px">Confirmation code: <b>{{code}}</b></mj-text>
+          </mj-column>
+        </mj-section>
+
+       
+
+       
+        <mj-section padding="40px 40px 0px">
+            <mj-column padding="0">
+                <mj-text padding="0 0 0px" font-weight="700">
+                   If you were not the one to initiate this action or suspect there may be an unauthorized attempt to access your account the you need to know  the following:
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+
+        <mj-section padding="20px 40px 0px">
+            <mj-column padding="0">
+                <mj-text padding="0 0 0px">1. Someone accessed your account and they knew you login and password.</mj-text>
+                <mj-text padding="0 0 0px">2. The access attempt was done from this ip address: <b>{{ip}}</b></mj-text>
+                <mj-text padding="0 0 0px">3. We strongly recommend that you change your password to a difficult to guess password that you have not used anywhere else before.</mj-text>
+            </mj-column>
+        </mj-section>
+
+
+        <mj-section padding="40px 40px 0px">
+            <mj-column padding="0">
+                <mj-text padding="0 0 0px" font-weight="700">Resourses:</mj-text>
+                <mj-text padding="0 0 20px" font-weight="400">You can lookup the location of the ip address <b>{{ip}}</b> from using this website: https://www.whatismyip.com</mj-text>
+                <mj-text padding="0 0 0px" font-weight="400">Also if you think your account has been compromised then we suggest that you check your email address on this website  https://haveibeenpwned.com to make sure if you were not part of any security breaches on other websites.</mj-text>
+            </mj-column>
+        </mj-section>
+
+
+      
+
+
+        <mj-section padding="60px 0 0">
+            <mj-column padding="0"><mj-divider padding="0"  border-width="1px" border-style="solid" border-color="#E6E6E6" /></mj-column>
+        </mj-section>
+
+        <mj-section padding="30px 40px 25px">
+          <mj-column padding="0">
+            <mj-text align="center" font-size="12px" line-height="18px" color="#505876" padding="0">
+              Copyright © 2020 EliteSeller Inc. All rights reserved. Address: Something something, 544-232.
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="0px 40px 30px">
+          <mj-column padding="0">
+            <mj-table>
+            
+              <tr>
+                <td style="padding: 0; width: 50%; text-align: right;"> 
+                  <a href="#youtube"><img src="images/youtube.png" width="56px"></a>
+                </td>
+                <td style="padding: 0 ;width: 50%;">
+                  <a href="#fb" style="padding-left: 23px;"><img src="images/fb.png" width="23px"></a>
+                </td>
+              </tr>
+            
+            </mj-table>
+          </mj-column>
+        </mj-section>
+        
+        <mj-section padding="0 40px 25px">
+          <mj-column>
+            <mj-text padding="0" text-decoration="none" color="#BDC6D2" font-size="12px" line-height="18px" align="center"> 
+              <a  href="#">Unsubscribe</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a  href="#">Privacy Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a  href="#">Contact Support </a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+    </mj-wrapper>
+   
+  </mj-body> 
+</mjml> 
